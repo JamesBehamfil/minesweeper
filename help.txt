@@ -1,0 +1,12 @@
+Đây là một phiên bản của game Dò Mìn sử dung Java và GUI JavaFX
+Dò Mìn là một game logic mà bạn phải mở toàn bộ ô vuông mà không chạm vào mìn trong thời gian ngắn nhất có thể.
+Game sẽ bắt đầu khi bạn nhấn vào ô đầu tiên. Ô đầu tiên bạn nhấn sẽ luôn an toàn và hiển thị số lượng mìn xung quanh. Mỗi con số sẽ thông báo có bao nhiêu mìn trong phạm vi 8 ô xung quanh.
+VD: [][][]
+    []3 []
+    [][][]
+Số 3 ở đây chỉ ở đây có 3 quả mìn.
+Bạn có thể đánh dấu bằng cờ (chuột phải) vào những ô bạn nghi ngờ là mìn. Khi đủ số mìn bị chặn, bạn có thể nhấn đúp vào điểm mìn để mở số ô còn lại.
+Nhưng lưu ý, nếu đánh đấu cờ sai, bạn sẽ thua vì mở dính ô mìn. Nếu không chắc chắn, bạn có thể đánh dấu bằng dấu hỏi bằng cách nhấn chuột phải vào ô cờ.
+Bạn thắng khi bạn không mở bất kỳ ô mìn nào.
+Số mìn trên bảng sẽ thông báo số lượng mìn vẫn còn trên bảng và một bộ đếm thời gian giúp bạn biết bạn chơi trong bao lâu. Game cũng sẽ có nút 'Tạm dùng' để tạm dừng trò chơi nếu bạn đang bận việc khác.
+Game có 3 độ khó: Dễ (10 mìn), Thường (40 mìn) và Khó (99 mìn). Ngoài ra bạn có thể tự tạo bảng và số mìn theo ý thích.
